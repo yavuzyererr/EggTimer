@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48269AE9295F2D6F009FDEDC /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48269AE8295F2D6F009FDEDC /* alarm_sound.mp3 */; };
 		4876E3142959E29C00B43220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3132959E29C00B43220 /* AppDelegate.swift */; };
 		4876E3162959E29C00B43220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3152959E29C00B43220 /* SceneDelegate.swift */; };
 		4876E3182959E29C00B43220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876E3172959E29C00B43220 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48269AE8295F2D6F009FDEDC /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../../../Downloads/EggTimer-iOS13-master 2/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
 		4876E3102959E29C00B43220 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4876E3132959E29C00B43220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4876E3152959E29C00B43220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				4876E3192959E29C00B43220 /* Main.storyboard */,
 				4876E31C2959E29E00B43220 /* Assets.xcassets */,
 				4876E31E2959E29E00B43220 /* LaunchScreen.storyboard */,
+				48269AE8295F2D6F009FDEDC /* alarm_sound.mp3 */,
 				4876E3212959E29E00B43220 /* Info.plist */,
 			);
 			path = EggTimer;
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4876E30B2959E29C00B43220 /* Build configuration list for PBXProject "EggTimer" */;
+			buildConfigurationList = 4876E30B2959E29C00B43220 /* Build configuration list for PBXProject "eggtimer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,6 +130,7 @@
 			files = (
 				4876E3202959E29E00B43220 /* LaunchScreen.storyboard in Resources */,
 				4876E31D2959E29E00B43220 /* Assets.xcassets in Resources */,
+				48269AE9295F2D6F009FDEDC /* alarm_sound.mp3 in Resources */,
 				4876E31B2959E29C00B43220 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4876E30B2959E29C00B43220 /* Build configuration list for PBXProject "EggTimer" */ = {
+		4876E30B2959E29C00B43220 /* Build configuration list for PBXProject "eggtimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4876E3222959E29E00B43220 /* Debug */,
